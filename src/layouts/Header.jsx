@@ -1,6 +1,5 @@
 import React from "react";
-import { Route } from "react-router-dom";
-import "../styles/Header.css";
+import "../css/Header.css";
 const Header = () => {
   return <div>Header</div>;
 };

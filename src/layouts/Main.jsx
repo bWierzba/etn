@@ -1,8 +1,8 @@
 import React from "react";
-import { Route } from "react-router-dom";
-import "../styles/Header.css";
-const Header = () => {
-  return <div>Header</div>;
+
+import "../css/Header.css";
+const Main = () => {
+  return <div>Main</div>;
 };
 
-export default Header;
+export default Main;
