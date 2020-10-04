@@ -1,3 +1,6 @@
+.nav-container {
+  position: fixed;
+}
 
 .nav-container nav {
   max-height: 20vh;
