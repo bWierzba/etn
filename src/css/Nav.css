@@ -1,0 +1,28 @@
+
+.nav-container nav {
+  max-height: 20vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.nav-container nav ul {
+  list-style: none;
+}
+
+.nav-container nav ul li {
+  display: inline-block;
+padding: 20px 7vw;
+}
+
+.nav-container nav ul li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.nav-container nav img {
+  width: 500px;
+  padding-top: 30px;
+}
