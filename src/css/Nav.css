@@ -5,12 +5,17 @@
 }
 
 .nav-container nav {
-  max-height: 20vh;
-  background-color: black;
-  color: white;
+  max-height: 300px;
+  background-color: #dadada;
+  color: black;
   text-align: center;
   text-transform: uppercase;
   font-size: 2rem;
+}
+
+.nav-container nav ul li svg {
+  color: black;
+  padding-right: 10px;
 }
 
 .nav-container nav ul {
