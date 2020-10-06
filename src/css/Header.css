@@ -10,3 +10,26 @@
   top: 90%;
   transform: translate(-50%);
 }
+
+.alice-carousel__dots-item {
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 0% !important;
+}
+.alice-carousel__dots-item:hover {
+  width: 12px !important;
+  height: 12px !important;
+  margin-left: 2px !important;
+  margin-right: 17px !important;
+  margin-bottom: 2px;
+
+  background-color: #e0e4fb !important;
+}
+.alice-carousel__dots-item.__active {
+  width: 12px !important;
+  height: 12px !important;
+  margin-right: 19px !important;
+  margin-bottom: 2px;
+  margin-left: 2px !important;
+  margin-right: 17px !important;
+}
