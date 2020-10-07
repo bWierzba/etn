@@ -2,3 +2,34 @@
   height: calc(100vh - 150px);
   background-color: salmon;
 }
+
+.column-photos {
+  height: 100%;
+  display: flex;
+  float: left;
+  width: 40%;
+  background-color: antiquewhite;
+}
+
+.column-photos img {
+  height: calc(100vh - 150px);
+  flex-grow: 1;
+  width: 33%;
+  position: relative;
+}
+
+.column-photos img:hover {
+  width: 90%;
+}
+
+.column-description {
+  float: right;
+  width: 60%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
