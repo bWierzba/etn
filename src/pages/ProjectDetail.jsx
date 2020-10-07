@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "../styles/Projects.css";
+import "../css/Projects.css";
 
 const ProjectDetail = () => {
   return <div className="project-detail">Projekty</div>;
