@@ -27,6 +27,11 @@
 margin: 5px 7vw;
 }
 
+.nav-container nav ul li a.active {
+  border-bottom: solid 2px black;
+}
+
+
 .nav-container nav ul li:hover {
   color: red;
   cursor: pointer;
