@@ -1,13 +1,13 @@
-.about-page{
+.about-page {
   height: calc(100vh - 150px);
   background-color: salmon;
   display: flex;
 }
 
-.about-page .row{
+.about-page .row {
   height: 100%;
   width: 100%;
-  background-color:pink;
+  background-color: pink;
   display: flex;
 }
 
@@ -15,17 +15,19 @@
   height: 100%;
   width: 40%;
   background-color: red;
-  display: flex; 
+  display: flex;
 }
 
 .column-photos .picture {
   height: 100%;
   background-color: green;
+  background-position: center;
+  background-size: cover;
   border: solid black 1px;
   flex-grow: 1;
   overflow: hidden;
   flex-basis: 20%;
-  transition: .5s;
+  transition: 0.5s;
 }
 .column-photos .picture:hover {
   flex-basis: 100%;
