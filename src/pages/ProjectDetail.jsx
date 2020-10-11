@@ -3,7 +3,7 @@ import "../css/Projects.css";
 
 const ProjectDetail = (props) => {
 
-  return <div className="project-detail">{props.project.title[0]}</div>;
+  return <div className="project-detail"></div>;
 };
 
 export default ProjectDetail;
