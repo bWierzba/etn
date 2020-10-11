@@ -2,3 +2,20 @@
   height: calc(100vh - 150px);
   background-color: whitesmoke;
 }
+
+.projects-page .project{
+  width: 100px;
+  background-color: tomato;
+  border: 2px solid blue;
+}
+
+.projects-page .project img{
+  width: 100px;
+}
+
+.true {
+  height: 10vh;
+background-color: white;
+overflow: hidden;
+
+}
