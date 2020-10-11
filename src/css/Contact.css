@@ -1,4 +1,95 @@
 .contact-page {
   height: calc(100vh - 150px);
-  background-color: skyblue;
+  background-color: #222;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-page .contact-page-title {
+  font-weight: normal;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 2vh;
+}
+
+.contact-page .form-parent {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-page .form-parent .contact-form label{
+  width: 100%;
+  font-size: 2em;
+  }
+
+.contact-page .form-parent .contact-form input{
+width: 100%;
+margin: .5vh 0;
+padding: 5px 5px;
+font-size: 1.5em;
+
+}
+
+.contact-page .form-parent .contact-form input:nth-last-child(1){
+border-style: none;
+color: whitesmoke;
+background-color: #222;
+border: whitesmoke solid 2px;
+padding: 10px 10px;
+width: 10%;
+border-radius:10px;
+cursor: pointer;
+transition: .3s;
+margin-bottom: 1vh;
+}
+.contact-page .form-parent .contact-form input:nth-last-child(1):hover{
+color: #222;
+background-color: whitesmoke;
+}
+
+.contact-page .form-parent .contact-form textarea{
+  width: 100%;
+  padding: 5px 5px;
+  font-size: 1.5em;
+  height: 8.5vh;
+  resize: none;
+  margin: .5vh 0;
+}
+
+
+.contact-page .contacts-list {
+  background-color: whitesmoke;
+  display: flex;
+  color: #222;
+  height: 40vh;
+  align-items: center;
+  flex-grow: 1;
+}
+.contact-page .contact-container{
+  flex-grow: 1;
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.contact-page .contact-container .city{
+  font-weight: normal;
+  margin-bottom: 5%;
+}
+.contact-page .contact-container h2{
+  font-weight: normal;
+  text-transform: none;
+}
+
+.contact-page .contact-container .name{
+  font-weight: lighter;
+}
+.contact-page .contact-container .phone{
+  font-weight: lighter;
+  text-transform: none;
+}
+.contact-page .contact-container .mail{
+  font-weight: lighter;
+  text-transform: none;
 }
