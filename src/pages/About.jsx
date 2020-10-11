@@ -30,7 +30,6 @@ class About extends React.Component {
   }
   
   MouseHover = (event) => {
-    console.log(event.target.id)
     switch(event.target.id){
     case 'Jagoda':
       this.setState({description: jagodaDescription});
