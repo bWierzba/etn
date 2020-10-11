@@ -9,9 +9,16 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 const Nav = () => {
   return (
-    <div className='nav-container'>
+    <div className='nav-container' id='nav'>
       <nav>
-        <img src={logo} alt="logo" />
+        <Link
+          activeClass=""
+          to="header"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+        ><img src={logo} alt="logo" /></Link>
         <ul>
           <li><Link
             activeClass="active"
@@ -37,11 +44,13 @@ const Nav = () => {
             offset={-150}
             duration={500}
           >kontakty</Link></li>
-          <li><Icon icon={instagramIcon} /></li>
-          <li><Icon icon={facebookIcon} /></li>
-
         </ul>
       </nav>
+      <div className='social-media-container'>
+        <Icon icon={instagramIcon} />
+        <Icon icon={facebookIcon} />
+      </div>
+
     </div>
   )
 };

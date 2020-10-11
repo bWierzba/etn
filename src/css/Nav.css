@@ -5,26 +5,48 @@
 }
 
 .nav-container nav {
-  height: 150px;
-  background-color: #dadada;
-  color: black;
+  background-color:whitesmoke;
+  color: #222;
   text-align: center;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  height: 150px;
 }
 
-.nav-container nav ul li svg {
-  color: black;
-  padding-right: 10px;
+.nav-container .social-media-container {
+  position: absolute;
+  top: 10%;
+  right: 5%;
 }
+
+.nav-container .social-media-container svg {
+  font-size: 3rem;
+  color: #222;
+  display: block;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.nav-container .social-media-container svg:hover {
+  color: yellow;
+}
+
 
 .nav-container nav ul {
   list-style: none;
+  display: flex;
+  justify-content: center;
+
 }
 
 .nav-container nav ul li {
-  display: inline-block;
-margin: 5px 7vw;
+  display: block;
+  margin: 0 5%;
+}
+
+.nav-container nav ul li a {
+  transition: .2s;
+  font-weight: normal;
 }
 
 .nav-container nav ul li a.active {
@@ -32,12 +54,13 @@ margin: 5px 7vw;
 }
 
 
-.nav-container nav ul li:hover {
-  color: red;
+.nav-container nav ul li a:hover {
+  text-shadow: 0  0 1px #222;
   cursor: pointer;
 }
 
 .nav-container nav img {
-  width: 500px;
-  padding-top: 30px;
+height: 75%;
+cursor: pointer;
+  
 }

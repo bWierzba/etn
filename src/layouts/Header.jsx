@@ -10,7 +10,7 @@ import image4 from "../img/3.jpg";
 
 const Header = () => {
   return (
-    <div>
+    <div id='header'>
       <AliceCarousel buttonsDisabled={true} autoPlay autoPlayInterval={3000}>
         <img src={image1} className="sliderimg" />
         <img src={image2} className="sliderimg" />
