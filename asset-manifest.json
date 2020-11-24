@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/etn/static/css/main.1a1115af.chunk.css",
+    "main.js": "/etn/static/js/main.f8891c7c.chunk.js",
+    "main.js.map": "/etn/static/js/main.f8891c7c.chunk.js.map",
+    "runtime-main.js": "/etn/static/js/runtime-main.0e6205ab.js",
+    "runtime-main.js.map": "/etn/static/js/runtime-main.0e6205ab.js.map",
+    "static/css/2.34c0de18.chunk.css": "/etn/static/css/2.34c0de18.chunk.css",
+    "static/js/2.89641382.chunk.js": "/etn/static/js/2.89641382.chunk.js",
+    "static/js/2.89641382.chunk.js.map": "/etn/static/js/2.89641382.chunk.js.map",
+    "index.html": "/etn/index.html",
+    "precache-manifest.f663299625c67024eabee703c3286bc7.js": "/etn/precache-manifest.f663299625c67024eabee703c3286bc7.js",
+    "service-worker.js": "/etn/service-worker.js",
+    "static/css/2.34c0de18.chunk.css.map": "/etn/static/css/2.34c0de18.chunk.css.map",
+    "static/css/main.1a1115af.chunk.css.map": "/etn/static/css/main.1a1115af.chunk.css.map",
+    "static/js/2.89641382.chunk.js.LICENSE.txt": "/etn/static/js/2.89641382.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/etn/static/media/1.9668f8c9.jpg",
+    "static/media/2.jpg": "/etn/static/media/2.2ee2a5d2.jpg",
+    "static/media/3.jpg": "/etn/static/media/3.09f452c9.jpg",
+    "static/media/A.jpg": "/etn/static/media/A.6f09b843.jpg",
+    "static/media/J.jpg": "/etn/static/media/J.cbe66c95.jpg",
+    "static/media/K.jpg": "/etn/static/media/K.2b77f092.jpg",
+    "static/media/logo.svg": "/etn/static/media/logo.4adaa34c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e6205ab.js",
+    "static/css/2.34c0de18.chunk.css",
+    "static/js/2.89641382.chunk.js",
+    "static/css/main.1a1115af.chunk.css",
+    "static/js/main.f8891c7c.chunk.js"
+  ]
+}
